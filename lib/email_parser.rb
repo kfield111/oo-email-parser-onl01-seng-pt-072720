@@ -14,8 +14,7 @@ def initialize(emails)
 end
 
 def parse
-  @@all << emails
-  @@all.split(", ")
+  emails.split", ")
 end
 
 end
