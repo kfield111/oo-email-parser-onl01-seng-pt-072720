@@ -15,6 +15,7 @@ end
 
 def parse
   @@all << emails
+  @@all
 end
 
 end
