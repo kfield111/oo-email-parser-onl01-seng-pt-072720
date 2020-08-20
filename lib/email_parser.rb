@@ -15,7 +15,7 @@ end
 
 def parse
   @@all << emails
-  @@all
+  @@all.split(", ")
 end
 
 end
