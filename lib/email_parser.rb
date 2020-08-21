@@ -14,7 +14,6 @@ end
 
 def parse
   emails.split(/\s,/)
-  emails.join(", ")
 end
 
 end
