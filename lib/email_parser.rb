@@ -14,6 +14,7 @@ end
 
 def parse
   emails.chomp(",")
+  emails.split
 end
 
 end
