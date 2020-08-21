@@ -13,8 +13,8 @@ def initialize(emails)
 end
 
 def parse
-  emails.split (" ")
-  emails.chomp(",")
+  seperate = emails.split (" ")
+  seperate.chomp(",")
 end
 
 end
