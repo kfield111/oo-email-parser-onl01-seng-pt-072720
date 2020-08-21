@@ -13,8 +13,7 @@ def initialize(emails)
 end
 
 def parse
-  edited_emails = emails.split(/\s,/)
-  edited_emails.split(", ")
+emails.delete(", ")
 end
 
 end
