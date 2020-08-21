@@ -13,8 +13,7 @@ def initialize(emails)
 end
 
 def parse
-emails.delete(",").split
-emails.uniq
+emails.delete(",").split.uniq
 end
 
 end
