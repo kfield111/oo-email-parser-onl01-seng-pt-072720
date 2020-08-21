@@ -14,7 +14,6 @@ end
 
 def parse
   edited_emails = emails.split(/\s,/)
-  binding.pry
   edited_emails.split(", ")
 end
 
